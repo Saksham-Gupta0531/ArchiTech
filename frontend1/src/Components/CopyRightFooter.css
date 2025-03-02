@@ -1,0 +1,7 @@
+.main-copy{
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: #fff;
+}
