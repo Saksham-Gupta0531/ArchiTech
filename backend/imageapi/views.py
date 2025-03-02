@@ -10,7 +10,7 @@ import os
 
 class GenerateHouseMapView(APIView):
     client = OpenAI(
-    api_key='''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''',
+        api_key="********",
     ) 
 
     def post(self, request):
@@ -73,7 +73,7 @@ class GenerateHouseMapView(APIView):
         Additionally, incorporate a two-car garage ({data.get('garage_dimension')} feet) and a front porch. 
         The layout should be functional, aesthetically appealing, and clearly labeled, following a top-down architectural blueprint style with black-and-white technical detailing.
         Keep Vastu Shastra in mind.
-        Make sure dimensions are clearly mentioned generate 2D MAP Only.
+        Make sure dimensions are clearly mentioned generate 2D MAP of the house.
         '''
 
     def generate_luxury_house(self, data):
